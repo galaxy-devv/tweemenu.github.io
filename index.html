@@ -1,69 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern RGB Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: url('{0D311286-70B8-46BC-974B-2ACAD2053300}.png') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-        }
-        header {
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.7);
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.7);
-            box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
-            border-radius: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.7);
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Modern RGB Website</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+<nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo">Twee Menu</div>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Buy</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="container">
-        <h2>Welcome to Our RGB Website</h2>
-        <p>This is a modern and dynamic website template with a custom background image.</p>
-    </div>
-    <footer>
-        &copy; 2025 Modern RGB Website. All Rights Reserved.
-    </footer>
-</body>
-</html>
+    <div class="overlay"></div>
 
+    <section id="home">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Welcome</h1>
+            <p class="section-description">Experience the most und menu you have ever used</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="bg-effect bg-effect-2"></div>
+        <div class="section-content">
+            <h1 class="section-title">About Us</h1>
+            <p class="section-description">Pushing boundaries and creating w menus</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Buy</h1>
+            <p class="section-description">To buy the paid menu go to discord.gg/galaxyhub</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="bg-effect bg-effect-2"></div>
+        <div class="section-content">
+            <h1 class="section-title">Portfolio</h1>
+            <p class="section-description">Made by @galaxy.devv and @gerald50121</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="bg-effect bg-effect-1"></div>
+        <div class="section-content">
+            <h1 class="section-title">Contact</h1>
+            <p class="section-description">discord.gg/galaxyhub</p>
+        </div>
+    </section>

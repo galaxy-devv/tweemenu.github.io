@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern RGB Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        @keyframes rgbText {
+            0% { color: #ff0000; }
+            33% { color: #00ff00; }
+            66% { color: #0000ff; }
+            100% { color: #ff0000; }
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            animation: rgbText 5s infinite alternate;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background: black;
+            animation: rgbText 5s infinite alternate;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: black;
+            box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+            border-radius: 10px;
+            animation: rgbText 5s infinite alternate;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color: white;
+            margin-top: 20px;
+            animation: rgbText 5s infinite alternate;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modern RGB Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Welcome to Our RGB Website</h2>
+        <p>This is a modern and dynamic website template with RGB animation.</p>
+    </div>
+    <footer>
+        &copy; 2025 Modern RGB Website. All Rights Reserved.
+    </footer>
+</body>
+</html>
